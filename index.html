@@ -187,10 +187,11 @@
         </div>
     </nav>
 
-    <div id="about">
+    <div id="about" style="margin-top: 10%">
         <div class="container">
             <div class="text">
-            <table class="table" id="result_table">
+            <input type="text" id="table_search" name="search" placeholder="Search.." onkeyup="searchFunction()">
+            <table class="table" id="paper_table">
                 <thead id="table-head">
                   <tr>
                     <td><strong>Paper ID</strong></td>
@@ -728,5 +729,6 @@
         });
     </script> <!-- Portfolio Isotope Settings --> 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBW9ZazhuahSIL_MBanyxO-VrELTMevyw&amp;callback=initMap"></script>
+    <script type="text/javascript" src="js/search.js"></script>
 </body>
 </html>
